@@ -1,0 +1,626 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ----------------- Heder Section ------------------------- */
+
+.heder {
+  background-color: #daac00;
+  position: sticky;
+  top: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 25px;
+  
+}
+
+ .heder .topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 121px;
+}
+
+.heder .menu ul {
+  display: flex;
+  column-gap: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  
+}
+
+.heder .menu ul li a {
+  font-size: 29px;
+  font-weight: 500;
+  color: #fff;
+  padding: 20px;
+}
+
+.heder .search-box {
+  position: relative;
+}
+
+.heder .box {
+  height: 50px;
+  width: 275px;
+  background-color: #fcc302;
+  border: none;
+  font-size: 24px;
+  color: #fff;
+  padding-left: 15px;
+}
+
+.heder .box::placeholder {
+  font-size: 20px;
+  color: #fff;
+  padding: 1px;
+}
+
+.heder .search-icon {
+  background-color: #00bec9;
+  height: 50px;
+  width: 70px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heder .icon {
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+/* ----------------- Banner Section ------------------ */
+
+
+.banner {
+  background-color: #fcc302;
+}
+
+.banner .make {
+  display: flex;
+  height: 780px;
+  align-items: center;
+}
+
+.banner .contant {
+  width: 65%;
+}
+
+.banner .contant h2 {
+  font-size: 66px;
+  line-height: 72px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-right: 70px ;
+}
+
+.banner .contant p {
+  font-size: 29px;
+  line-height: 35px;
+  font-weight: 300;
+  color: #ffffff;
+  padding-top: 38px;
+  padding-bottom: 58px;
+}
+
+.banner .Btn {
+  column-gap: 35px;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.banner .Btn .btn-1 {
+  background-color: #00bec9;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 25px 30px;
+  border-radius: 7px;
+}
+
+.banner .Btn .btn-1:hover {
+  background-color: #fcc302;
+  border: 4px solid #fff;
+  border-radius: 7px;
+  padding: 22px 28px;
+}
+
+.btn-2 {
+  background-color: #fcc302;
+  color: #ffffff;
+  border: 4px solid #fff;
+  border-radius: 7px;
+  font-size: 20px;
+  padding: 22px 28px;
+}
+
+.btn-2:hover {
+  background-color: #00bec9;
+  padding: 25px 30px;
+  border: none;
+}
+
+.banner .image {
+  width: 35%;
+}
+
+/* --------------- Lover Section --------------------- */
+
+.lover .animal {
+  display: flex;
+  height: 780px;
+  align-items: center;
+}
+
+
+.lover .contant h2 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #313243;
+}
+
+
+.lover .contant p {
+  font-size: 29px;
+  line-height: 35px;
+  color: #313243;
+  padding-top: 35px;
+  padding-bottom: 60px;
+}
+
+/* ----------------- Services Section ----------------- */
+
+
+.services {
+  background-color: #fcc302;
+  text-align: center;
+}
+
+.services .make {
+  padding: 100px 0;
+}
+
+
+.services .contant h2 {
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 82px;
+  color: #ffffff;
+}
+
+
+.services .contant p {
+  font-size: 33px;
+  line-height: 39px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-top: 45px;
+  padding-bottom: 95px;
+  margin: 0 200px;
+}
+
+
+.services .image {
+  display: flex;
+  column-gap: 65px;
+}
+
+
+.services .image img {
+  height: 355px;
+  width: 345px;
+}
+
+
+.services .image h4 {
+  font-size: 35.5px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #ffffff;
+  padding: 25px 0;
+}
+
+
+.services .image p {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+
+
+/* --------------- veterinarian Section ---------- */
+
+
+.veterinarian .video {
+  display: flex;
+  height: 780px;
+  align-items: center;
+}
+
+.veterinarian .contant {
+  width: 50%;
+  text-align: right;
+}
+
+.veterinarian .contant h2 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #313243;
+}
+
+
+.veterinarian .contant p {
+  font-size: 29px;
+  line-height: 35px;
+  color: #313243;
+  padding-top: 35px;
+  padding-bottom: 60px;
+}
+
+
+/* ---------------- Offer Section -------------------  */
+
+
+.offer {
+  background-color: #fcc302;
+  text-align: center;
+}
+
+.offer .buy {
+  padding: 100px 0;
+}
+
+.offer .contant h2 {
+  font-size: 75px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+
+.offer .contant p {
+  font-size: 33px;
+  line-height: 38px;
+  font-weight: 300;
+  color: #ffffff;
+  padding: 0 200px;
+  padding-top: 10px;
+  padding-bottom: 90px;
+}
+
+.offer .image {
+  display: flex;
+  justify-content: center;
+  column-gap: 65px;
+}
+
+.offer .image .hader {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  font-size: 42px;
+  color: #ffffff;
+  padding: 18px 0;
+}
+
+
+.offer .image img {
+  height: 355px;
+  width: 345px;
+}
+
+.offer .image .hader .style {
+  text-decoration: line-through;
+}
+
+
+.offer .image .btn {
+  background-color: #00bec9;
+  display: inline-block;
+  padding: 17px 45px;
+  border-radius: 60px;
+  color: #ffffff;
+  font-size: 45px;
+  letter-spacing: -2px;
+}
+
+.offer .image .btn:hover {
+  background-color: #fcc302;
+  color: #00bec9;
+  border: 3px solid #ffffff;
+}
+
+
+
+/* --------------------- vetCare Section ----------------- */
+
+
+.vetcare .doctor {
+  text-align: center;
+  padding: 140px 0;
+}
+
+.vetcare .doctor .contant h2 {
+  font-size: 75px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #313243;
+}
+
+.vetcare .doctor .contant p {
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 38px;
+  color: #313243;
+  padding: 45px 0;
+  margin: 0 200px;
+}
+
+.vetcare .doctor .image {
+  display: flex;
+  justify-content: center;
+  column-gap: 38px;
+}
+
+.vetcare .doctor .image img {
+  height: 353px;
+  width: 364px;
+}
+
+.vetcare .doctor .image .name {
+  font-size: 29px;
+  font-weight: 700;
+  color: #313243;
+  padding-top: 35px;
+}
+
+.vetcare .doctor .image .info {
+  font-size: 25px;
+  font-weight: 400;
+  color: #313243;
+} 
+
+.vetcare .image .icon {
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 20px 75px;
+}
+
+.vetcare .fa-brands{
+  font-weight: 400;
+  background-color: #daac00;
+  padding: 7px;
+  color: #ffffff;
+  border-radius: 50%;
+}
+
+
+/* -------------------- Count Section ----------------------- */
+
+
+.count {
+  background-image: url(./img/count-banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.count .image {
+  display: flex;
+  justify-content: space-between;
+  padding: 165px 0;
+  align-items: center;
+  text-align: center;
+}
+
+.count .image .math {
+  font-size: 41px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 25px 0;
+}
+
+
+.count .image .name {
+  font-size: 37.5px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+
+/* ------------------- Recent Section ------------------------- */
+
+.animal {
+  text-align: center;
+  padding: 120px 0;
+}
+
+.recent .contant h2 {
+  font-size: 75px;
+  line-height: 82px;
+  font-weight: 700;
+  color: #313243;
+}
+
+.recent .contant p {
+  font-size: 33px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #313243;
+  padding: 45px 200px;
+  padding-bottom: 80px;
+}
+
+.recent .image {
+  display: flex;
+  column-gap: 42px;
+}
+
+.recent .image img {
+  height: 350px;
+  width: 362px;
+}
+
+.recent .image .shadow {
+  box-shadow: inset 0px 0px 3px  #313243;
+}
+
+.recent .image .tittle {
+  text-align: justify;
+  padding: 32px 33px ;
+}
+
+.recent .image h4 {
+  font-size: 25px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #313243;
+}
+
+
+.recent .image h6 {
+  font-size: 16px;
+  line-height: 38px;
+  font-weight: 500;
+  color: #00bec9;
+}
+
+
+.recent .image p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #313243;
+}
+
+.recent .image h5 {
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: 500;
+  color: #00bec9;
+  padding-top: 12px;
+}
+
+
+
+/* --------------------- footer Section ------------------ */
+
+
+.footer {
+  background-color: #343434;
+}
+
+.footer .contant {
+  display: flex;
+  padding: 150px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .contant h3 {
+  font-size: 37.5px;
+  font-weight: 700;
+  line-height: 60px;
+  padding-bottom: 12px;
+  color: #fff;
+}
+
+
+.footer .contant p {
+  font-size: 25px;
+  font-weight: 200;
+  line-height: 48px;
+  color: #fff;
+}
+
+.footer .contant .con-1 {
+  display: flex;
+  column-gap: 100px;
+  color: #ffffff;
+}
+
+.footer .contant .con-2 {
+  text-align: right;
+  color: #ffffff;
+}
+
+.footer .contant .con-2 p {
+  padding-bottom: 48px;
+}
+
+.footer .contant .con-2 .search-box {
+  position: relative;
+}
+
+.footer .contant .con-2 .search-box .box {
+  height: 90px;
+  width: 532px;
+  background-color: #daac00;
+  border: none;
+}
+
+.footer .contant .con-2 .search-box .paper-plane {
+  height: 90px;
+  width: 145px;
+  background-color: #00bec9;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.footer .contant .con-2 .search-box .fa-solid {
+  color: #ffffff;
+}
+
+
+.footer .contant .con-2 .icon {
+  display: flex;
+  justify-content: end;
+  column-gap: 16px;
+  padding-top: 48px;
+}
+
+.footer .icon li a {
+  background-color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 61px;
+  color: #343434;
+  font-size: 20px;
+}
